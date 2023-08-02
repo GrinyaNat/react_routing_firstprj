@@ -1,11 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import User from '../components/User';
+import User2 from '../components/User2';
+import User3 from '../components/User3';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <User />
+        <User2 />
+        <User3 />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
@@ -22,5 +28,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
